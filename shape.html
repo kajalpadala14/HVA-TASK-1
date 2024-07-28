@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+        }
+
+        .rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid yellow;
+        }
+
+        .shape-container {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Shapes Example</h2>
+    <div class="shape-container">
+        <div class="square"></div>
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+        <div class="triangle"></div>
+    </div>
+</body>
+</html>
+
